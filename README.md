@@ -62,7 +62,7 @@ RestartSec=3
 LimitNOFILE=4096
 Environment="DAEMON_NAME=sourced"         # Bu bölüm düzenlenecek
 Environment="DAEMON_HOME=$HOME/.source    # Bu bölüm düzenlenecek
-Environment="DAEMON_ALLOW_DOWNLOAD_BINARIES=false"
+Environment="DAEMON_ALLOW_DOWNLOAD_BINARIES=false"    # Bu bölüm otomatik güncelleme için true yapılmalıdır
 Environment="DAEMON_RESTART_AFTER_UPGRADE=true"
 Environment="DAEMON_LOG_BUFFER_SIZE=512"
 [Install]
